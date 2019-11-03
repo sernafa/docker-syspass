@@ -11,7 +11,9 @@ steps:
   - name: build-image
     image: plugins/docker
     settings:
-      # username: 
-      # password: 
+      username:
+         from_secret: dockerhub_username
+      password:
+        from_secret: dockerhub_password
       repo: sernafa/docker-syspass
       tags: 3.1.0
