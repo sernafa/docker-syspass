@@ -10,7 +10,7 @@ platform:
 steps:
   - name: build-image
     image: plugins/docker
-  settings:
-    username: dockerhub_user
-    password: dockerhub_pass
-    repo: sernafa/docker-syspass
+    settings:
+      username: dockerhub_user
+      password: dockerhub_pass
+      repo: sernafa/docker-syspass
