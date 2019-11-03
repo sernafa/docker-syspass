@@ -14,3 +14,4 @@ steps:
       username: dockerhub_user
       password: dockerhub_pass
       repo: sernafa/docker-syspass
+      tags: 3.1.0
